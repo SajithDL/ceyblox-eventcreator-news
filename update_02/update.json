@@ -11,7 +11,7 @@
 "title": "Refresh Test Update",
 "summary": "This update should appear after pressing Refresh in the dashboard.",
 "body": "If this update appears without restarting the resource, then the GitHub refresh system is working correctly.",
-"image": "update-001.png",
+"image": "update-001.jpg",
 "tags": ["test", "refresh", "github"]
 }
 ],
