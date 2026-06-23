@@ -1,0 +1,26 @@
+{
+"id": "update_02",
+"title": "GitHub Feed Test 02",
+"summary": "Second remote update to test dashboard refresh without script restart.",
+"version": "0.1.19",
+"date": "2026-06-23",
+"banners": [
+{
+"id": "test-02-banner-01",
+"type": "core",
+"title": "Refresh Test Update",
+"summary": "This update should appear after pressing Refresh in the dashboard.",
+"body": "If this update appears without restarting the resource, then the GitHub refresh system is working correctly.",
+"image": "images/update-001.png",
+"tags": ["test", "refresh", "github"]
+}
+],
+"patchNotes": [
+{
+"id": "test-02-patch-01",
+"version": "0.1.19",
+"title": "Refresh test",
+"text": "Dashboard remote feed refreshed and loaded a new update from GitHub."
+}
+]
+}
