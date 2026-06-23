@@ -1,0 +1,56 @@
+{
+  "id": "update_03",
+  "title": "Same Day Multi Update Test",
+  "summary": "Three dashboard banners and patch notes published in one update batch.",
+  "version": "0.1.20",
+  "date": "2026-06-23",
+  "banners": [
+    {
+      "id": "u03-banner-01",
+      "type": "core",
+      "title": "Core Update Preview",
+      "summary": "First news card from the same update folder.",
+      "body": "Full details for the first dashboard news card.",
+      "image": "update-001.jpg",
+      "tags": ["core"]
+    },
+    {
+      "id": "u03-banner-02",
+      "type": "addon",
+      "title": "Addon Preview",
+      "summary": "Second news card for addon or store updates.",
+      "body": "Full details for the second dashboard news card.",
+      "image": "update-002.jpg",
+      "tags": ["addon"]
+    },
+    {
+      "id": "u03-banner-03",
+      "type": "patch",
+      "title": "Patch Notes Highlight",
+      "summary": "Third news card for bug fixes and small improvements.",
+      "body": "Full details for the third dashboard news card.",
+      "image": "update-003.jpg",
+      "tags": ["patch"]
+    }
+  ],
+  "patchNotes": [
+    {
+      "id": "u03-patch-01",
+      "version": "0.1.20",
+      "title": "Core",
+      "text": "Core dashboard update card support tested."
+    },
+    {
+      "id": "u03-patch-02",
+      "version": "0.1.20",
+      "title": "Addon",
+      "text": "Addon preview/news card support tested."
+    },
+    {
+      "id": "u03-patch-03",
+      "version": "0.1.20",
+      "title": "Fixes",
+      "text": "Patch note list support tested inside News Center."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "update_01",
+  "title": "GitHub Feed Test 01",
+  "summary": "First remote dashboard update test.",
+  "version": "0.1.18",
+  "date": "2026-06-23",
+  "banners": [
+    {
+      "id": "test-01-banner-01",
+      "type": "core",
+      "title": "Remote Feed Connected",
+      "summary": "This is the first GitHub dashboard update.",
+      "body": "If you can see this inside the dashboard news popup, the GitHub remote feed is working correctly.",
+      "image": "update-001.jpg",
+      "tags": ["test", "github", "dashboard"]
+    }
+  ],
+  "patchNotes": [
+    {
+      "id": "test-01-patch-01",
+      "version": "0.1.18",
+      "title": "GitHub feed connected",
+      "text": "The first remote update was loaded from GitHub."
+    }
+  ]
+}
