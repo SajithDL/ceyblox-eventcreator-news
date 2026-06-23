@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "project": "CeyBlox Event Creator",
-  "latestVersion": "0.1.19",
+  "latestVersion": "0.1.20",
   "updatedAt": "2026-06-23",
-  "updates": ["update_02", "update_01"]
+  "updates": ["update_03", "update_02", "update_01"]
 }
