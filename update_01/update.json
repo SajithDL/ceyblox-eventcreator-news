@@ -1,26 +1,26 @@
 {
-  "id": "update_01",
-  "title": "Remote Dashboard Feed Test",
-  "summary": "Testing GitHub-powered dashboard updates.",
-  "version": "0.1.18",
-  "date": "2026-06-23",
-  "banners": [
-    {
-      "id": "remote-banner-01",
-      "type": "core",
-      "title": "GitHub News Feed Connected",
-      "summary": "This banner is loaded from GitHub remote feed.",
-      "body": "This is the full detail text shown inside the News Center popup. Later this can include release notes, addon previews, bug fix notes, and store update messages.",
-      "image": "images/update-001.png",
-      "tags": ["core", "dashboard"]
-    }
-  ],
-  "patchNotes": [
-    {
-      "id": "remote-patch-01",
-      "version": "0.1.18",
-      "title": "Remote feed test",
-      "text": "Dashboard remote update feed is connected and loading from GitHub."
-    }
-  ]
+"id": "update_01",
+"title": "GitHub Feed Test 01",
+"summary": "First remote dashboard update test.",
+"version": "0.1.18",
+"date": "2026-06-23",
+"banners": [
+{
+"id": "test-01-banner-01",
+"type": "core",
+"title": "Remote Feed Connected",
+"summary": "This is the first GitHub dashboard update.",
+"body": "If you can see this inside the dashboard news popup, the GitHub remote feed is working correctly.",
+"image": "images/update-001.png",
+"tags": ["test", "github", "dashboard"]
+}
+],
+"patchNotes": [
+{
+"id": "test-01-patch-01",
+"version": "0.1.18",
+"title": "GitHub feed connected",
+"text": "The first remote update was loaded from GitHub."
+}
+]
 }
