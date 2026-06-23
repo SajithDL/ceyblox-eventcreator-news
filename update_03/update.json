@@ -12,7 +12,9 @@
       "summary": "First news card from the same update folder.",
       "body": "Full details for the first dashboard news card.",
       "image": "update-001.gif",
-      "tags": ["core"]
+      "tags": [
+        "core"
+      ]
     },
     {
       "id": "u03-banner-02",
@@ -21,7 +23,9 @@
       "summary": "Second news card for addon or store updates.",
       "body": "Full details for the second dashboard news card.",
       "image": "update-002.jpg",
-      "tags": ["addon"]
+      "tags": [
+        "addon"
+      ]
     },
     {
       "id": "u03-banner-03",
@@ -29,8 +33,10 @@
       "title": "Patch Notes Highlight",
       "summary": "Third news card for bug fixes and small improvements.",
       "body": "Full details for the third dashboard news card.",
-      "image": "update-003.jpg",
-      "tags": ["patch"]
+      "image": "update-003.png",
+      "tags": [
+        "patch"
+      ]
     }
   ],
   "patchNotes": [
