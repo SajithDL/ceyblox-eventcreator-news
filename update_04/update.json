@@ -1,8 +1,8 @@
 {
-  "id": "update_05",
+  "id": "update_04",
   "title": "GitHub Feed Test 04",
   "summary": "Second remote update to test dashboard refresh without script restart.",
-  "version": "0.1.60",
+  "version": "0.1.58",
   "date": "2026-08-26",
   "banners": [
     {
@@ -22,7 +22,7 @@
   "patchNotes": [
     {
       "id": "test-02-patch-01",
-      "version": "0.1.60",
+      "version": "0.1.58",
       "title": "Refresh test",
       "text": "Dashboard remote feed refreshed and loaded a new update from GitHub."
     }
