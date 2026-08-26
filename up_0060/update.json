@@ -1,0 +1,20 @@
+{
+  "id": 60,
+  "visible": false,
+  "date": "2026-08-28",
+  "title": "Hidden Feed Test",
+  "summary": "This must not appear anywhere in CeyBlox while visible is false.",
+  "versions": {
+    "core": "9.9.9",
+    "addons": {
+      "cb_eventcreator_testprop": "9.9.9"
+    }
+  },
+  "updates": [
+    {
+      "id": "hidden-test",
+      "title": "YOU SHOULD NOT SEE THIS",
+      "body": "If this appears in CeyBlox, visible:false handling is broken."
+    }
+  ]
+}
