@@ -8,7 +8,7 @@
     {
       "id": "test-04-banner-01",
       "type": "core",
-      "title": "Refresh Test Update",
+      "title": "Version Test Update",
       "summary": "This update should appear after pressing Refresh in the dashboard.",
       "body": "If this update appears without restarting the resource, then the GitHub refresh system is working correctly.",
       "image": "update-001.gif",
