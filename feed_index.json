@@ -2,10 +2,8 @@
   "schema": 1,
   "project": "CeyBlox Event Creator",
   "latestVersion": "0.1.60",
-  "latestCoreVersion": "0.5.59"
   "updatedAt": "2026-08-26",
   "updates": [
-    "Update_05",
     "update_04",
     "update_03",
     "update_02",
