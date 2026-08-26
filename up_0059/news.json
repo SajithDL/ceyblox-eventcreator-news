@@ -1,0 +1,20 @@
+{
+  "news": [
+    {
+      "id": "v59-news-main",
+      "title": "CeyBlox Update Feed Has a New Structure",
+      "summary": "Update history now lives in permanent numbered folders instead of a manually maintained latest-version file.",
+      "body": "CeyBlox Event Creator can now discover public GitHub update folders directly. Each folder has a numeric update ID, and the largest visible numeric ID becomes the newest update. Missing IDs are safe, hidden updates stay in GitHub without appearing in the menu, and a successful manual Refresh replaces the complete remote snapshot so deleted or edited entries are reflected immediately.\n\nThis text is intentionally longer than a normal short announcement. Scroll inside the News Center content panel and confirm that the reader stays on the same item rather than splitting this article into fake pages. The content area should use the same CeyBlox themed scrollbar as the rest of the interface.\n\nFor a real release you can use this area for product announcements, development notes, important compatibility warnings, new official addon releases, links to documentation, or other information that server owners should see without needing to browse Discord first.",
+      "image": "images/v59-github.svg",
+      "tags": ["News", "GitHub", "Feed v3"]
+    },
+    {
+      "id": "v59-news-second",
+      "title": "Second News Item on the Same Date",
+      "summary": "This item verifies the inner arrows move between items while the date stays 2026-08-27.",
+      "body": "When this item is selected, the displayed date must remain 2026-08-27. Use the small inner navigation arrows to return to the first news item. The larger date navigation arrows should instead move to 2026-08-26.",
+      "image": "images/v59-ui.svg",
+      "tags": ["Same Date", "Navigation"]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "updates": [
+    {
+      "id": "v59-update-library",
+      "title": "Stable Event Library Cards",
+      "summary": "Large Event libraries now scroll instead of crushing card thumbnails into thin strips.",
+      "body": "Event cards keep a readable fixed/minimum visual size even when many Events match the current filter. The Saved Events panel becomes the scrolling surface. The Event currently open in the editor receives an Editing badge and a stronger themed highlight so multiple builders or admins can immediately understand which project is active on their own client.\n\nCards now use View, Actions, and a lifecycle/status control. Draft Events can be moved to Ready directly from the lifecycle control. Ready, Scheduled, Live, Archived, Trash, and Editing states remain visible as stable status controls without constantly changing the card width.",
+      "image": "images/v59-ui.svg",
+      "tags": ["Events", "Cards", "UI"]
+    },
+    {
+      "id": "v59-update-github",
+      "title": "Numbered GitHub Update Discovery",
+      "summary": "Core detects up_#### directories, reads numeric IDs, ignores gaps, and supports visible:false.",
+      "body": "The update checker no longer needs a manually maintained latest version file for a normal public GitHub repository. Core derives the GitHub Contents API endpoint from the configured raw repository URL, discovers folders such as up_0058, up_0059, and up_10000, then reads each update.json. Numeric update IDs decide order, not alphabetical folder names.\n\nIf update #5 is deleted while #4 and #6 still exist, CeyBlox simply continues with the remaining valid folders. If visible is false, that update remains stored in GitHub but is excluded from the feed and latest-version state. Manual Refresh uses a fresh remote snapshot and cache-busted JSON requests so edits and deletions do not remain stuck in the old in-memory feed.",
+      "image": "images/v59-github.svg",
+      "tags": ["GitHub", "Versions", "Cache"]
+    },
+    {
+      "id": "v59-update-addons",
+      "title": "Addon Update Comparison",
+      "summary": "Installed addons compare their own registered unique IDs against versions declared by the newest visible GitHub update.",
+      "body": "Each addon remains responsible for registering its permanent unique addon ID and installed version. Core does not hard-code addon IDs. If the newest visible update contains a matching addon ID, CeyBlox compares versions and can show Update available or Up to date. GitHub entries for addons that are not installed are ignored. Installed addons that are not listed in the newest update are also ignored rather than showing an error or false warning.\n\nThis test intentionally lists cb_eventcreator_testprop as version 0.1.60-test but does not list cb_eventcreator_testfunction. With v59 installed, Test Prop should report an available update while Test Function should simply show its installed version without a GitHub warning.",
+      "image": "images/v59-addons.svg",
+      "tags": ["Addons", "Unique ID", "Update Check"]
+    }
+  ]
+}
