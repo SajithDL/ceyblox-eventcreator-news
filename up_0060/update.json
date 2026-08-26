@@ -5,9 +5,9 @@
   "title": "Hidden Feed Test",
   "summary": "This must not appear anywhere in CeyBlox while visible is false.",
   "versions": {
-    "core": "9.9.9",
+    "core": "0.1.59",
     "addons": {
-      "cb_eventcreator_testprop": "9.9.9"
+      "cb_eventcreator_testprop": "0.0.5"
     }
   },
   "updates": [
