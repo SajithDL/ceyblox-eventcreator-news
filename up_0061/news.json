@@ -2,7 +2,7 @@
   "news": [
     {
       "id": "v60-news-library",
-      "title": "Event Library Gets More Room",
+      "title": "Event Library Gets More Room | in 2026",
       "summary": "The old Current Event side panel is gone so the Event library can use the full workspace width.",
       "body": "CeyBlox Event Creator v60 continues the UI cleanup by treating an active editor as a compact session banner instead of a permanent side panel. New Event, Quick Test, and Import stay together as page actions, while the Event library uses the remaining workspace for stable thumbnail cards.\n\nThis test article is deliberately long enough to require scrolling on smaller menu scales. The News Center should keep this entire article as one scrollable item. It must not create fake reading pages. If the article has an image, the image should stay with this content and use the same themed scrollbar rules as the rest of CeyBlox.\n\nThe new Event cards use subtle lifecycle surface colors so Draft, Ready, Scheduled, Due, Live, Archived, and Trash can be recognized without relying only on a small badge. The Event currently open in Placement receives a stronger Editing highlight on top of its normal lifecycle state.\n\nThe main three card controls are now View, Actions, and Edit. View opens the visual Event details. Actions keeps secondary management commands in one clean popup. Edit enters Placement directly when editing is allowed, and the same button stays visible but disabled with a short tooltip when the Event state blocks editing.",
       "image": "images/v60-library.svg",
