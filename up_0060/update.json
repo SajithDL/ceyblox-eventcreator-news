@@ -1,6 +1,6 @@
 {
   "id": 60,
-  "visible": true,
+  "visible": false,
   "date": "2026-08-28",
   "title": "Hidden Feed Test",
   "summary": "This must not appear anywhere in CeyBlox while visible is false.",
