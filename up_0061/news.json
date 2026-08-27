@@ -1,0 +1,20 @@
+{
+  "news": [
+    {
+      "id": "v60-news-library",
+      "title": "Event Library Gets More Room",
+      "summary": "The old Current Event side panel is gone so the Event library can use the full workspace width.",
+      "body": "CeyBlox Event Creator v60 continues the UI cleanup by treating an active editor as a compact session banner instead of a permanent side panel. New Event, Quick Test, and Import stay together as page actions, while the Event library uses the remaining workspace for stable thumbnail cards.\n\nThis test article is deliberately long enough to require scrolling on smaller menu scales. The News Center should keep this entire article as one scrollable item. It must not create fake reading pages. If the article has an image, the image should stay with this content and use the same themed scrollbar rules as the rest of CeyBlox.\n\nThe new Event cards use subtle lifecycle surface colors so Draft, Ready, Scheduled, Due, Live, Archived, and Trash can be recognized without relying only on a small badge. The Event currently open in Placement receives a stronger Editing highlight on top of its normal lifecycle state.\n\nThe main three card controls are now View, Actions, and Edit. View opens the visual Event details. Actions keeps secondary management commands in one clean popup. Edit enters Placement directly when editing is allowed, and the same button stays visible but disabled with a short tooltip when the Event state blocks editing.",
+      "image": "images/v60-library.svg",
+      "tags": ["Events", "UI", "v60"]
+    },
+    {
+      "id": "v60-news-refresh",
+      "title": "GitHub Refresh Cache Test",
+      "summary": "A manual Refresh should now react to visible true/false changes without needing a second unrelated repository edit.",
+      "body": "The v60 refresh test uses the SHA returned for each numbered GitHub update folder as part of the cache key when CeyBlox fetches update.json and its split content files. The request also receives a new refresh nonce each time. This means editing a file inside an update folder changes that folder SHA, which produces a new request URL for the changed content.\n\nUse up_0062 for the direct test. It starts hidden. Change only its visible value from false to true, commit, then press the CeyBlox Refresh icon. Update 62 should become visible and latest. Change only that same value back to false, commit, press Refresh again, and update 62 should disappear immediately. Do not change or delete any other update during that test.\n\nMissing numeric IDs remain valid. CeyBlox does not iterate from one to the largest ID and therefore does not care if an old update such as #5 has been deleted from a repository containing dozens or hundreds of later updates.",
+      "image": "images/v60-refresh.svg",
+      "tags": ["GitHub", "Cache", "Refresh"]
+    }
+  ]
+}

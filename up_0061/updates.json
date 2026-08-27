@@ -1,0 +1,28 @@
+{
+  "updates": [
+    {
+      "id": "v60-update-events",
+      "title": "Full-Width Event Workflow",
+      "summary": "Saved Events now use the full page, with active editing shown as a compact banner.",
+      "body": "The Events page now follows the same workflow language as Presets. New Event, Quick Test, and Import are page actions. When an Event is actively being edited, a compact Editing Event banner appears with Continue Editing, Save, Save As, Make Ready, Export, and Clear/Close controls. The old large Current Event side panel no longer takes permanent space from the library.\n\nSaved Event cards use View, Actions, and Edit. Lifecycle is communicated through the status badge and a subtle theme-ready card tint instead of duplicating READY or LIVE as a third button. Newest, Oldest, Name A-Z, and Name Z-A sorting is available above the library. Older Event records without a usable timestamp safely fall back to their numeric Event ID for date-style ordering.",
+      "image": "images/v60-library.svg",
+      "tags": ["Events", "Cards", "Sorting"]
+    },
+    {
+      "id": "v60-update-presets",
+      "title": "Preset Actions and Categories",
+      "summary": "Preset cards now mirror the Event card structure more closely, and categories are selectable without typing first.",
+      "body": "User Presets now use View, Actions, and Edit on the card. Addon Presets use View, Actions, and Copy because addon-owned originals are not edited directly. Trashed User Presets use View, Actions, and Restore. Placement, details editing, rename, duplicate, export, trash, and restore operations are grouped inside the Preset Actions popup where appropriate.\n\nThe category field is a real select-or-create control. Existing categories are visible immediately when the field opens. Choose an existing category without typing, or choose Create new category and enter a new name. Categories learned during the current NUI session are remembered immediately while the server list refresh catches up, so the filter and following edit/create dialogs do not temporarily forget a just-created category.",
+      "image": "images/v60-presets.svg",
+      "tags": ["Presets", "Categories", "Actions"]
+    },
+    {
+      "id": "v60-update-feed",
+      "title": "Numbered Feed Refresh Hardening",
+      "summary": "Folder SHA plus a refresh nonce is used to avoid stale update.json results after GitHub edits.",
+      "body": "The numbered update history remains unchanged: folders can be up_0001, up_0002, up_10000, or any other numeric ID. IDs do not need to be continuous. update.json.id remains the source of truth for ordering. visible false keeps an update in GitHub while excluding it from the normal feed and latest-version calculation.\n\nThe v60 hardening does not make one GitHub API request for every historical update folder. CeyBlox still gets the root repository listing once, uses the folder SHA already included in that listing, and carries that SHA into the raw JSON cache key. This scales better when the repository eventually contains many historical updates.",
+      "image": "images/v60-refresh.svg",
+      "tags": ["GitHub", "Feed", "Versions"]
+    }
+  ]
+}

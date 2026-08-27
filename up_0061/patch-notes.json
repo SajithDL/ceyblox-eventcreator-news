@@ -1,0 +1,34 @@
+{
+  "patchNotes": [
+    {
+      "id": "v60-patch-01",
+      "title": "Event page layout",
+      "text": "Removed the permanent Current Event side panel and replaced it with a compact active Editing Event banner so the Saved Events library can use the full page width."
+    },
+    {
+      "id": "v60-patch-02",
+      "title": "Lifecycle card surfaces",
+      "text": "Event cards now receive subtle theme-ready lifecycle tints for Draft, Ready, Scheduled, Due, Live, Archived, and Trash. Editing adds a stronger independent highlight."
+    },
+    {
+      "id": "v60-patch-03",
+      "title": "Event sorting",
+      "text": "Added Newest, Oldest, Name A-Z, and Name Z-A sorting with numeric Event ID fallback for older records without useful timestamps."
+    },
+    {
+      "id": "v60-patch-04",
+      "title": "Preset Actions",
+      "text": "Preset cards now use a cleaner View, Actions, and Edit/Copy/Restore layout, and Empty Preset Trash is a compact Trash-only action rather than a permanent full-width danger bar."
+    },
+    {
+      "id": "v60-patch-05",
+      "title": "Category selection",
+      "text": "Existing Preset categories are shown immediately in a select-or-create field. Newly used categories are remembered immediately in the current UI session."
+    },
+    {
+      "id": "v60-patch-06",
+      "title": "GitHub cache hardening",
+      "text": "Manual refresh now combines a per-refresh nonce with each GitHub update folder SHA so isolated file edits and visible true/false changes request a fresh remote JSON snapshot."
+    }
+  ]
+}
