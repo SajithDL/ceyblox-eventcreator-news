@@ -1,0 +1,19 @@
+{
+  "patchNotes": [
+    {
+      "id": "dev04-patch-01",
+      "title": "Stable Event cards",
+      "text": "Lifecycle/runtime information should not resize cards."
+    },
+    {
+      "id": "dev04-patch-02",
+      "title": "Priority ordering",
+      "text": "Live appears before Scheduled, then other Events; selected sorting still applies inside each group."
+    },
+    {
+      "id": "dev04-patch-03",
+      "title": "Runtime remains focused",
+      "text": "Automatic start/end/recovery stays a dedicated upcoming system."
+    }
+  ]
+}

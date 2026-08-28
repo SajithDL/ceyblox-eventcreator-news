@@ -1,0 +1,27 @@
+{
+  "updates": [
+    {
+      "id": "dev01-update-editor",
+      "title": "Editor and Project Foundation",
+      "summary": "Events, reusable Presets and an internal Placement workspace start forming one connected workflow.",
+      "body": "The main goal during this stage was to make Event projects feel persistent instead of temporary. Events could be saved and re-opened, Presets could be reused, and Placement became the internal editor route rather than a normal public sidebar page. The workflow was still being refined, but the separation between an Event project and a temporary Preset Workspace became an important rule.",
+      "image": "images/night-event-build.webp",
+      "tags": [
+        "Editor",
+        "Presets",
+        "Projects"
+      ]
+    },
+    {
+      "id": "dev01-update-addon",
+      "title": "Addon-First Direction",
+      "summary": "Optional event systems should register with Core instead of being permanently hard-coded.",
+      "body": "The addon foundation was kept intentionally broad: props, Presets, tools, hints, live panels, settings, themes and registered actions can grow around the Core. This lets future packs stay optional and keeps framework-specific integrations separate.",
+      "image": "images/night-event-build.webp",
+      "tags": [
+        "Addons",
+        "Modular"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": 5,
+  "visible": true,
+  "date": "2026-08-28",
+  "title": "Development Feed Test 11 — Themes, Libraries and Test Coverage",
+  "summary": "The development package gains a real Light theme, larger addon test libraries and cleaner News Center date navigation.",
+  "files": {
+    "news": "news.json",
+    "updates": "updates.json",
+    "patchNotes": "patch-notes.json"
+  },
+  "versions": {
+    "core": "0.1.65",
+    "addons": {
+      "cb_eventcreator_testprop": "0.1.65-test",
+      "cb_eventcreator_testfunction": "0.1.65-test"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "news": [
+    {
+      "id": "dev05-news-main",
+      "title": "Theme and Library Testing Expands",
+      "summary": "CeyBlox Dark remains the default, while a new official Light theme tests the semantic theme system.",
+      "body": "The default built-in theme is now named CeyBlox Dark and remains the reset/default choice. CeyBlox Light is added as the second real Core theme. Old fake Festival/Wedding theme placeholders are removed from Core. A dummy Neon theme stays in the test addon so addon theme registration can be tested without hard-coding fake addon themes into the product.\n\nThe theme system remains built around semantic variables. That leaves room for future themes to add depth, shine, animated borders, hover effects, background images, transparency and different icon packs. The existing Settings → UI & Theme → UI animations switch is the master motion control and future animated themes must obey it.\n\nThe sample prop addon is also larger now, with ordinary GTA props, more addon Presets and two intentionally missing model registrations. Missing models are useful for checking that a broken/removed addon asset produces a clean small error instead of freezing the editor or exposing an ugly internal error.\n\nNews Center date navigation is also easier to test with this cleaned history. Pick an older date in one tab, then switch News / Updates / Patch Notes: the popup keeps the selected date until it is closed. Reopening the popup starts from the newest content again.",
+      "image": "images/theme-event-scene.webp",
+      "tags": [
+        "Themes",
+        "News Center",
+        "Testing"
+      ]
+    }
+  ]
+}

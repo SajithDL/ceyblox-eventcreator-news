@@ -1,0 +1,16 @@
+{
+  "news": [
+    {
+      "id": "dev01-news-main",
+      "title": "Building More Than a Prop Placer",
+      "summary": "The Event Creator direction is becoming a full event workflow rather than a simple object placement menu.",
+      "body": "This is the first record in the cleaned public development feed, but it is not the beginning of CeyBlox Event Creator development. Work on the project started earlier. The feed was reset during testing so future News Center history could use a clean numbered format. The title “Development Feed Test 07” is intentionally used so this page is never mistaken for the project’s first prototype or first test.\n\nAt this stage the product direction became much clearer: building an event should be only the first step. A useful event tool also needs a place to prepare the project, save reusable pieces, test safely, schedule a show, run it, clean it up and recover if a server/resource restarts. That thinking became the Build → Prepare → Schedule → Run → Automate → Recover direction.\n\nThe editor work was still rough in places, but the important foundation was being separated into Events, Presets, Placement, Live tools, Addons, Settings and storage. This also made it easier to keep optional systems such as lighting, music, fireworks, screens and future framework bridges outside the Core instead of turning one resource into a giant hard-coded package.\n\nThe public feed itself is also part of this testing. Long articles should remain one scrollable item. Multiple items on the same day use the inner arrows, while date arrows move through older/newer days.",
+      "image": "images/night-event-build.webp",
+      "tags": [
+        "Development",
+        "Events",
+        "Workflow"
+      ]
+    }
+  ]
+}

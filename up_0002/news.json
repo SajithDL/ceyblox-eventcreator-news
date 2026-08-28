@@ -1,0 +1,16 @@
+{
+  "news": [
+    {
+      "id": "dev02-news-main",
+      "title": "Reusable Event Pieces",
+      "summary": "Presets are becoming reusable build assets rather than a second type of Event.",
+      "body": "Preset development focused on keeping reusable builds independent from Event lifecycle. A Preset Workspace should never create an Event, become Live or receive a Schedule. Addon Presets stay protected originals, while users can copy them into editable User Presets.\n\nThis direction makes it possible to build stage pieces, seating areas, barriers, media desks and other reusable layouts once, then place them inside many Events. The longer-term plan also includes captured preview thumbnails and a Browse Library where users can inspect content before using it.",
+      "image": "images/preset-workshop.webp",
+      "tags": [
+        "Presets",
+        "Library",
+        "Reusable"
+      ]
+    }
+  ]
+}

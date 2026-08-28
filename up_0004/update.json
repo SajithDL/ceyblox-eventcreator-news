@@ -1,0 +1,12 @@
+{
+  "id": 4,
+  "visible": true,
+  "date": "2026-08-12",
+  "title": "Development Feed Test 10 — Event Library and Runtime Preparation",
+  "summary": "Event cards, lifecycle states and scheduling controls became easier to read while runtime recovery remained a separate focused system.",
+  "files": {
+    "news": "news.json",
+    "updates": "updates.json",
+    "patchNotes": "patch-notes.json"
+  }
+}

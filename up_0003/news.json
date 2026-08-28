@@ -1,0 +1,16 @@
+{
+  "news": [
+    {
+      "id": "dev03-news-main",
+      "title": "Building Safely With Staff",
+      "summary": "Main Core access is becoming role-based instead of treating every staff member as a full administrator.",
+      "body": "The access direction separates building from administration. Builders should be able to work on Events and Presets without automatically receiving Access Management, addon administration or full Core controls. Event Managers can receive hosting responsibilities, while Administrators and Root retain the higher-level controls they need.\n\nRoot remains a CeyBlox configuration concept rather than requiring a custom server.cfg ACE setup. Console access commands remain useful as emergency/recovery tools, but normal management belongs inside Settings → Access Management.\n\nA future public/player builder addon is intentionally separate. A normal player who receives limited building features later should not automatically become “CeyBlox Staff” or gain access to the main Core UI.",
+      "image": "images/staff-control-room.webp",
+      "tags": [
+        "Access",
+        "Staff",
+        "Safety"
+      ]
+    }
+  ]
+}

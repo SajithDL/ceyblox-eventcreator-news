@@ -1,0 +1,12 @@
+{
+  "id": 3,
+  "visible": true,
+  "date": "2026-07-22",
+  "title": "Development Feed Test 09 — Access and Safer Staff Workflows",
+  "summary": "The staff permission direction expanded so Builders, Event Managers and Administrators can have different responsibilities.",
+  "files": {
+    "news": "news.json",
+    "updates": "updates.json",
+    "patchNotes": "patch-notes.json"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "updates": [
+    {
+      "id": "dev03-update-permissions",
+      "title": "Role-Based Staff Direction",
+      "summary": "Builder, Event Manager, Administrator and Custom roles give the Core a clearer permission model.",
+      "body": "The long-term collaboration model also keeps editor visibility separate from edit permission. Temporary work can eventually be visible to Only Me, CeyBlox Staff or Everyone without that visibility granting edit access.",
+      "image": "images/staff-control-room.webp",
+      "tags": [
+        "Roles",
+        "Permissions"
+      ]
+    }
+  ]
+}

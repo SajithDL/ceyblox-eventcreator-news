@@ -1,0 +1,19 @@
+{
+  "patchNotes": [
+    {
+      "id": "dev01-patch-01",
+      "title": "Public feed reset",
+      "text": "Numbered GitHub history starts here for testing. This is not the first CeyBlox development date."
+    },
+    {
+      "id": "dev01-patch-02",
+      "title": "Event project direction",
+      "text": "Events and Presets are treated as saved projects/assets instead of only temporary placement sessions."
+    },
+    {
+      "id": "dev01-patch-03",
+      "title": "Modular product direction",
+      "text": "Optional systems stay addon-oriented so Core remains framework-independent."
+    }
+  ]
+}

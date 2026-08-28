@@ -1,0 +1,19 @@
+{
+  "patchNotes": [
+    {
+      "id": "dev03-patch-01",
+      "title": "Access Management",
+      "text": "Normal permission changes are designed for the Core Settings UI."
+    },
+    {
+      "id": "dev03-patch-02",
+      "title": "Root configuration",
+      "text": "Root identifiers remain the official CeyBlox Root path."
+    },
+    {
+      "id": "dev03-patch-03",
+      "title": "Player builder separation",
+      "text": "Future player-facing building does not automatically count as CeyBlox Staff."
+    }
+  ]
+}

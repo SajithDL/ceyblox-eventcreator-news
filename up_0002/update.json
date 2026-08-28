@@ -1,0 +1,12 @@
+{
+  "id": 2,
+  "visible": true,
+  "date": "2026-07-03",
+  "title": "Development Feed Test 08 — Presets and Reusable Builds",
+  "summary": "Preset workflows became a first-class part of building, with locked addon originals and editable user copies.",
+  "files": {
+    "news": "news.json",
+    "updates": "updates.json",
+    "patchNotes": "patch-notes.json"
+  }
+}

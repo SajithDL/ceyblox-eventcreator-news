@@ -1,0 +1,15 @@
+{
+  "updates": [
+    {
+      "id": "dev04-update-health",
+      "title": "Recovery and Health Direction",
+      "summary": "Core Health and future Event Health are being treated as safety systems, not normal day-to-day repair steps.",
+      "body": "Saved files should survive normal updates without asking an administrator to manually recover them. Core Health remains available for real index/storage problems, while Event Health/Preflight is planned to check missing models, duplicate IDs and addon requirements before an Event goes Live.",
+      "image": "images/event-library-night.webp",
+      "tags": [
+        "Core Health",
+        "Preflight"
+      ]
+    }
+  ]
+}

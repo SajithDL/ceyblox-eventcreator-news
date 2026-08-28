@@ -1,0 +1,27 @@
+{
+  "updates": [
+    {
+      "id": "dev05-update-news",
+      "title": "Shared News Center Date",
+      "summary": "News, Updates and Patch Notes now follow one selected date during the current popup session.",
+      "body": "Moving back to an older date no longer jumps to the newest date when switching tabs. If one tab has no item on that exact day, CeyBlox can show the closest available day without losing the shared date anchor; switching back returns to the original date where available.",
+      "image": "images/theme-event-scene.webp",
+      "tags": [
+        "News Center",
+        "Navigation"
+      ]
+    },
+    {
+      "id": "dev05-update-testpack",
+      "title": "Bigger Addon Test Pack",
+      "summary": "More GTA props and Presets make scrolling, categories and missing-asset behavior easier to validate.",
+      "body": "The template test prop addon remains development-only. It now gives the library enough content to expose layout problems and includes intentionally invalid model names to simulate an addon asset that was removed after registration.",
+      "image": "images/theme-event-scene.webp",
+      "tags": [
+        "Addons",
+        "Props",
+        "Testing"
+      ]
+    }
+  ]
+}

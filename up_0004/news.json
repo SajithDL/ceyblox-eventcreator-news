@@ -1,0 +1,16 @@
+{
+  "news": [
+    {
+      "id": "dev04-news-main",
+      "title": "A Clearer Event Library",
+      "summary": "Saved Events are easier to scan by status while active Live and Scheduled work stays important.",
+      "body": "The Event library moved toward fixed thumbnail cards with clear lifecycle identity. Draft, Ready, Scheduled, Live and other states should be recognizable quickly without changing the size of the card. Active Live Events and Scheduled Events can take priority in the list while the selected sort still controls order inside those priority groups.\n\nScheduling UI can already describe several start/end modes, but the final runtime still needs server-authoritative automatic start, automatic cleanup, restart recovery, late-join synchronization and duplicate prevention. Those pieces are intentionally treated as one larger runtime problem instead of being rushed into unrelated UI work.",
+      "image": "images/event-library-night.webp",
+      "tags": [
+        "Events",
+        "Library",
+        "Runtime"
+      ]
+    }
+  ]
+}

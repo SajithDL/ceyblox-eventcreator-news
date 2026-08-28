@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="560" viewBox="0 0 1280 560">
-  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#081923"/><stop offset=".5" stop-color="#0a2f42"/><stop offset="1" stop-color="#123015"/></linearGradient></defs>
-  <rect width="1280" height="560" fill="url(#g)"/>
-  <rect x="700" y="76" width="430" height="350" rx="24" fill="#06131c" stroke="#00e6a8" stroke-opacity=".45"/>
-  <g fill="#8fffea" font-family="monospace" font-size="22"><text x="735" y="135">up_0058/</text><text x="735" y="180">up_0059/  ← latest visible</text><text x="735" y="225">up_0060/  visible:false</text><text x="735" y="285">update.json → id: 59</text><text x="735" y="330">versions.core: 0.1.60</text><text x="735" y="375">missing IDs: safe</text></g>
-  <text x="70" y="120" fill="#8fffea" font-size="28" font-family="Arial" font-weight="700">CEYBLOX UPDATE FEED</text>
-  <text x="70" y="190" fill="#ffffff" font-size="58" font-family="Arial" font-weight="900">Numbered GitHub History</text>
-  <text x="70" y="245" fill="#c8fff3" font-size="26" font-family="Arial">Permanent update folders. No manual latest-version file.</text>
-</svg>

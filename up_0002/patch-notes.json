@@ -1,0 +1,19 @@
+{
+  "patchNotes": [
+    {
+      "id": "dev02-patch-01",
+      "title": "Preset Workspace",
+      "text": "Preset editing is kept separate from Event Ready/Live/Schedule states."
+    },
+    {
+      "id": "dev02-patch-02",
+      "title": "Addon originals",
+      "text": "Addon Presets remain locked originals and can be copied into User Presets."
+    },
+    {
+      "id": "dev02-patch-03",
+      "title": "Future previews",
+      "text": "Thumbnail capture and library previews remain planned without changing saved JSON compatibility."
+    }
+  ]
+}

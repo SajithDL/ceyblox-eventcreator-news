@@ -1,0 +1,12 @@
+{
+  "id": 1,
+  "visible": true,
+  "date": "2026-06-18",
+  "title": "Development Feed Test 07 — The Event Workflow Takes Shape",
+  "summary": "A reconstructed public development note covering the early Build → Prepare direction and the move away from treating CeyBlox as only a prop placer.",
+  "files": {
+    "news": "news.json",
+    "updates": "updates.json",
+    "patchNotes": "patch-notes.json"
+  }
+}

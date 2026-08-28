@@ -1,0 +1,15 @@
+{
+  "updates": [
+    {
+      "id": "dev02-update-workspace",
+      "title": "Preset Workspace Separation",
+      "summary": "Preset creation/editing stays separate from Event lifecycle.",
+      "body": "A Preset Workspace is a temporary editor session dedicated to a reusable Preset. It can save back to a User Preset without creating an Event record. This separation is important for future collaboration and creator protection.",
+      "image": "images/preset-workshop.webp",
+      "tags": [
+        "Workspace",
+        "Presets"
+      ]
+    }
+  ]
+}
