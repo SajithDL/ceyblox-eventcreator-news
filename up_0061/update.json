@@ -1,7 +1,7 @@
 {
   "id": 61,
   "visible": true,
-  "date": "2026-08-27",
+  "date": "2026-08-29",
   "title": "CeyBlox v60 Library & Refresh Test",
   "summary": "Tests the v60 full-width Event library, lifecycle card tinting, Event/Preset action cleanup, category selection, and hardened GitHub refresh behavior.",
   "versions": {

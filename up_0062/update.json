@@ -1,7 +1,7 @@
 {
   "id": 62,
   "visible": false,
-  "date": "2026-08-28",
+  "date": "2026-08-30",
   "title": "v60 Visibility Toggle Test",
   "summary": "Keep this hidden first. Toggle only visible to true/false to test the v60 GitHub cache fix.",
   "versions": {
