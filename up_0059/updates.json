@@ -5,7 +5,7 @@
       "title": "Stable Event Library Cards",
       "summary": "Large Event libraries now scroll instead of crushing card thumbnails into thin strips.",
       "body": "Event cards keep a readable fixed/minimum visual size even when many Events match the current filter. The Saved Events panel becomes the scrolling surface. The Event currently open in the editor receives an Editing badge and a stronger themed highlight so multiple builders or admins can immediately understand which project is active on their own client.\n\nCards now use View, Actions, and a lifecycle/status control. Draft Events can be moved to Ready directly from the lifecycle control. Ready, Scheduled, Live, Archived, Trash, and Editing states remain visible as stable status controls without constantly changing the card width.",
-      "image": "images/v59-ui.svg",
+      "image": "images/v59-ui.webp",
       "tags": ["Events", "Cards", "UI"]
     },
     {
