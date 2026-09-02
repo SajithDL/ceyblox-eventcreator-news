@@ -1,0 +1,27 @@
+{
+  "updates": [
+    {
+      "id": "dev06-update-news",
+      "title": "Testing News Center Navigation Without Preview Images",
+      "summary": "News Center date navigation is easier to test with this cleaned history.",
+      "body": "Pick an older date in one tab, then switch News / Updates / Patch Notes: the popup keeps the selected date until it is closed. Reopening the popup starts from the newest content again.",
+      "image": "",
+      "tags": [
+        "News Center",
+        "Navigation"
+      ]
+    },
+    {
+      "id": "dev06-update-testing",
+      "title": "Testing Addon Props and Presets",
+      "summary": "",
+      "body": "",
+      "image": "",
+      "tags": [
+        "Addons",
+        "Props",
+        "Testing"
+      ]
+    }
+  ]
+}

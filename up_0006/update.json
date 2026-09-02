@@ -1,0 +1,19 @@
+{
+  "id": 6,
+  "visible": true,
+  "date": "2026-09-01",
+  "title": "Development Feed Test 12",
+  "summary": "The development package is now available for testing.",
+  "files": {
+    "news": "news.json",
+    "updates": "updates.json",
+    "patchNotes": "patch-notes.json"
+  },
+  "versions": {
+    "core": "0.1.80",
+    "addons": {
+      "cb_eventcreator_testprop": "0.1.80-test",
+      "cb_eventcreator_testfunction": "0.1.80-test"
+    }
+  }
+}

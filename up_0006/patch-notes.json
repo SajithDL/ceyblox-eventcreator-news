@@ -1,0 +1,29 @@
+{
+  "patchNotes": [
+    {
+      "id": "dev05-patch-01",
+      "title": "CeyBlox themes",
+      "text": "CeyBlox Dark is the default built-in theme; CeyBlox Light is the second built-in theme."
+    },
+    {
+      "id": "dev05-patch-02",
+      "title": "Addon theme test",
+      "text": "The dummy Neon theme is addon-owned and only appears when that addon theme feature is enabled."
+    },
+    {
+      "id": "dev05-patch-03",
+      "title": "Preset card size",
+      "text": "Preset cards keep a fixed readable size and the library scrolls instead of shrinking them."
+    },
+    {
+      "id": "dev05-patch-04",
+      "title": "News date memory",
+      "text": "Selected News Center date is shared across tabs until the popup closes."
+    },
+    {
+      "id": "dev05-patch-05",
+      "title": "Missing model test",
+      "text": "Invalid test addon models show a compact placement warning rather than silently doing nothing."
+    }
+  ]
+}
